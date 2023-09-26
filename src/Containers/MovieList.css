@@ -1,0 +1,14 @@
+.pagination {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filters {
+  margin: 20px 30px 25px;
+  text-align: right;
+}
+
+.pageNum {
+  margin: 10px;
+}

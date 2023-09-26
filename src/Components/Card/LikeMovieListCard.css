@@ -1,0 +1,31 @@
+.movie-card {
+  position: relative;
+  width: 200px;
+  margin: 25px;
+}
+
+img {
+  width: 100%;
+  bottom: 0;
+  border-radius: 3.5%;
+}
+
+.movie-card:hover img {
+  position: relative;
+  top: -45px;
+}
+
+.movie-card .buttons {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  display: none;
+}
+
+.movie-card:hover .buttons {
+  display: block;
+}
+
+button {
+  margin-right: 5px;
+}
